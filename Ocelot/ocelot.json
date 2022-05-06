@@ -1,5 +1,5 @@
 {
-  "Routes": [
+  "ReRoutes": [
     {
       "DownstreamPathTemplate": "/api/user",
       "DownstreamScheme": "http",
@@ -9,7 +9,7 @@
           "Port": 11614
         }
       ],
-      "UpstreamPathTemplate": "/gateway/user",
+      "UpstreamPathTemplate": "/user",
       "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
     }
   ]
